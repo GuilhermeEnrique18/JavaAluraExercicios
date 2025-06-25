@@ -5,6 +5,6 @@ public class ProdutoXQuantidade {
         double total = precoProduto * quantidade;
 
         System.out.printf("O valor total do estoque é de: %.2f", total);
-        
+
     }
 }
