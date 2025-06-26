@@ -5,7 +5,7 @@ public class Menu {
         Scanner sc = new Scanner(System.in);
 
         int opcao = 3;
-        double ladoQuadrado1=0,ladoQuadrado2=0;
+        double ladoQuadrado=0;
 
         double baseT=0,alturaT=0;
 
@@ -18,12 +18,8 @@ public class Menu {
             if (opcao == 1){
 
                 System.out.println("Digite o 1º lado do quadrado");
-                ladoQuadrado1 = sc.nextDouble();
-
-                System.out.println("Digite o 2º lado do quadrado");
-                ladoQuadrado2 = sc.nextDouble();
-
-                double areaQuadrado = ladoQuadrado1 * ladoQuadrado2;
+                ladoQuadrado = sc.nextDouble();
+                double areaQuadrado = ladoQuadrado * ladoQuadrado;
                 System.out.printf("A área do Quadrado é: %.2f\n",areaQuadrado);
 
             } else if (opcao == 2) {
