@@ -1,24 +1,15 @@
 public class ExecutarClasses {
     public static void main(String[] args) {
-        Musica musica01 = new Musica();
 
-        musica01.titulo = "Me namora";
-        musica01.artista = "Natiruts";
-        musica01.anoLancamento = 2012;
+        Carro carro1 = new Carro();
 
-        musica01.exibeFichaTecnica();
+        carro1.cor = "vermelho";
+        carro1.ano = 2010;
+        carro1.modelo = "SUV";
 
-        musica01.avalia(4.5);
-        musica01.avalia(3.8);
-        musica01.avalia(5.0);
+        int resp = carro1.calculaIdadeCarro();
+        carro1.exibirFichaTecnica();
+        System.out.printf("\nIdade do carro: %d",resp);
 
-        double mediaAvaliacoes = musica01.getMedia();
-        System.out.printf("Média das avaliações: %.2f", mediaAvaliacoes);
-
-
-        //Pessoa pessoa01 = new Pessoa();
-        /*double resp = CalculadoraDobro.dobroNumero(5);
-        System.out.println(resp);
-        */
     }
 }
