@@ -1,3 +1,5 @@
+package exerciciosJava;
+
 public class ConcatenacaoCharString {
     public static void main(String args[]){
         char letra = 'A';

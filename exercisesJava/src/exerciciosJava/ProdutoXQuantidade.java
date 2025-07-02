@@ -1,3 +1,5 @@
+package exerciciosJava;
+
 public class ProdutoXQuantidade {
     public static void main(String args[]){
         double precoProduto = 10.50;

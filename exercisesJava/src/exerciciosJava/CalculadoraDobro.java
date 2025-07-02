@@ -1,3 +1,5 @@
+package exerciciosJava;
+
 public class CalculadoraDobro {
     double num;
 

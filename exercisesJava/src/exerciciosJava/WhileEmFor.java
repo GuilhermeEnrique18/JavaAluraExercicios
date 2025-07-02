@@ -1,3 +1,5 @@
+package exerciciosJava;
+
 public class WhileEmFor {
     public static void main(String[] args) {
         int contador = 0;

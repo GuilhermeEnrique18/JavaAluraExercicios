@@ -1,3 +1,5 @@
+package exerciciosJava;
+
 import java.util.Scanner;
 
 public class Fatorial {

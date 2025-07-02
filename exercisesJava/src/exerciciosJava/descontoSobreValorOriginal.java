@@ -1,3 +1,5 @@
+package exerciciosJava;
+
 public class descontoSobreValorOriginal {
     public static void main(String args[]){
         double precoOriginal = 450.00;

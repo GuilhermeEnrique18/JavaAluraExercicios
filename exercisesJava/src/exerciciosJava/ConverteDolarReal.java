@@ -1,3 +1,5 @@
+package exerciciosJava;
+
 public class ConverteDolarReal {
     public static void main(String args[]){
         double valorDolarAtual = 4.94;
