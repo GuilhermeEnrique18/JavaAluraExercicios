@@ -3,21 +3,15 @@ package desafioJavaHerancaPoo03;
 public class MainClasses {
     public static void main(String[] args) {
 
-        ContaBancaria conta1 = new ContaBancaria();
+        VerificadorPrimo verificador = new VerificadorPrimo();
+        verificador.verificaSePrimo(17);
 
-        conta1.depositar(2500);
-        System.out.println(conta1.consultarSaldo());
-        conta1.sacar(500);
-        System.out.println(conta1.consultarSaldo());
+        GeradorPrimo gerador = new GeradorPrimo();
+        int proximoPrimo = gerador.gerarPrimo(17);
+        System.out.println("O próximo primo após 17 é: " + proximoPrimo);
 
-        ContaCorrente contaCorrente1 = new ContaCorrente();
-        contaCorrente1.depositar(4000);
-        System.out.println(contaCorrente1.consultarSaldo());
-        contaCorrente1.sacar(500);
-        System.out.println(contaCorrente1.consultarSaldo());
-        contaCorrente1.setMes(2);
-        contaCorrente1.cobrarTarifaMensal();
-        System.out.println(contaCorrente1.consultarSaldo());
+        NumerosPrimos numerosPrimos = new NumerosPrimos();
+        numerosPrimos.listarPrimos(30);
 
     }
 
