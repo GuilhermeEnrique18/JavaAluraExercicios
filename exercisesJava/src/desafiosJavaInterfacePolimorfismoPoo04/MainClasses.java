@@ -2,10 +2,12 @@ package desafiosJavaInterfacePolimorfismoPoo04;
 
 public class MainClasses {
     public static void main(String[] args) {
-        TabuadaMultiplicacao num5 = new TabuadaMultiplicacao();
+        ConversorTemperaturaPadrao celcius = new ConversorTemperaturaPadrao();
+        ConversorTemperaturaPadrao fahrenheit = new ConversorTemperaturaPadrao();
 
-        num5.mostrarTabuada(5);
-
+        fahrenheit.setTempFahrenheit(77);
+        System.out.println("77 fahrenheit em celcius é: " + fahrenheit.fahrenheitParaCelsius());
+        celcius.celsiusParaFahrenheit(25);
 
     }
 }
